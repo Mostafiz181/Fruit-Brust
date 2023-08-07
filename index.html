@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fruit Brust</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.6.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/basscss@latest/css/basscss.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/all.min.css" />
+  </head>
+  <body>
+    <!-- =====================================
+                Header part start
+    ========================================== -->
+    <section id="header-part">
+      <div class="container">
+        <div class="navbar">
+          <div class="navbar-start">
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Shops</a></li>
+              <li><a href="">All fruits</a></li>
+            </ul>
+          </div>
+          <div class="navbar-center logo">
+            <img src="images/Group 2.png" alt="" />
+          </div>
+          <div class="navbar-end hidden sm:block">
+            <input type="text" name="name" id="" placeholder="Search here" />
+            <i class="fa-solid fa-magnifying-glass search"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- =====================================
+                Header part end 
+    ========================================== -->
+
+    <!-- =====================================
+                Banner part start
+    ========================================== -->
+     <section id="banner-part">
+      <div class="container">
+        <div class="carousel w-full">
+          <div id="slide1" class="carousel-item relative w-full banner-img">
+            <img src="/images/banner1.png" class="w-full" />
+            <div class="overlay">
+                <div class="banner-text ">
+                <h1 class="">
+                  Exotic tastes at your <br />
+                  doorstep
+                </h1>
+                <p>We supply highly quality organic products</p>
+                <button>Shop Now</button>
+              </div> 
+              
+            </div>
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide4" class="btn btn-circle">❮</a>
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide2" class="carousel-item relative w-full banner-img">
+            <img src="/images/banner2.png" class="w-full" />
+            <div class="overlay">
+              <div class="banner-text">
+                <h1>
+                  Exotic tastes at your <br />
+                  doorstep
+                </h1>
+                <p>We supply highly quality organic products</p>
+                <button>Shop Now</button>
+              </div>
+            </div>
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide1" class="btn btn-circle">❮</a>
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide3" class="carousel-item relative w-full banner-img">
+            <img src="/images/banner3.png" class="w-full" />
+            <div class="overlay">
+              <div class="banner-text">
+                <h1 class="md:text-[10px]">
+                  Exotic tastes at your <br />
+                  doorstep
+                </h1>
+                <p>We supply highly quality organic products</p>
+                <button>Shop Now</button>
+              </div>
+            </div>
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide2" class="btn btn-circle">❮</a>
+              <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide4" class="carousel-item relative w-full banner-img">
+            <img src="/images/banner4.png" class="w-full" />
+            <div class="overlay">
+              <div class="banner-text">
+                <h1>
+                  Exotic tastes at your <br />
+                  doorstep
+                </h1>
+                <p>We supply highly quality organic products</p>
+                <button>Shop Now</button>
+              </div>
+            </div>
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide3" class="btn btn-circle">❮</a>
+              <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+
+
+    
+
+    <!-- =====================================
+                Banner part end
+    ========================================== -->
+    <!-- ====================================
+                Fruits part start
+    ========================================= -->
+
+    <section id="fruit-part"  class="hidden sm:block ">
+      <div class="container">
+        <div class="fruit-item shadow-lg ">
+          <div class="card card-compact w-full  ">
+            <figure><img src="/images/strawberry.png" alt="" /></figure>
+            <p>Strawberry</p>
+
+          </div>
+
+          <div class="card card-compact w-full h-full ">
+            <figure><img src="/images/malta.png" alt="" /></figure>
+            <p>Orange</p>
+
+          </div>
+
+          <div class="card card-compact w-full h-full ">
+            <figure><img src="/images/mango.png" alt="" /></figure>
+            <p>Mango</p>
+
+          </div>
+
+          <div class="card card-compact w-full h-full ">
+            <figure><img src="/images/grapes.png" alt="" /></figure>
+            <p>Grapes</p>
+
+          </div>
+
+          <div class="card card-compact w-full h-full ">
+            <figure><img src="/images/dalim.png" alt="" /></figure>
+            <p>Dalim</p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====================================
+                Fruits part end
+    ========================================= -->
+
+    <!-- =====================================
+                Counter part start
+    ========================================== -->
+
+    <section id="counter-part">
+      <div class="container">
+        <div
+          class="counter-item grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4"
+        >
+          <div class="left">
+            <h1>Deal of the day</h1>
+            <p>
+              Contrary to popular belief, is not simply random text. It has
+              roots in a piece of classical <br />
+              Latin literature from 45 BC, making it over 2000 years old.
+            </p>
+          </div>
+          <div class="right">
+            <div>
+              <h1>29</h1>
+              <p>Days</p>
+            </div>
+            <div>
+              <h1>15</h1>
+              <p>Hours</p>
+            </div>
+            <div>
+              <h1>25</h1>
+              <p>Minutes</p>
+            </div>
+            <div>
+              <h1>08</h1>
+              <p>Seconds</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================
+                Counter part end
+    ========================================== -->
+
+    <!-- =====================================
+                Gellary part start
+    ========================================== -->
+
+    <section id="gallery-part">
+      <div class="container">
+        <div
+          class="card-item grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4 gap-4"
+        >
+          <div class="card card-compact w-full bg-base-100 shadow-xl">
+            <figure><img src="images/apple.png" alt="" /></figure>
+            <div class="card-body">
+              <h2>12.90$ - 18.85$</h2>
+              <p class="card-text">Apple</p>
+
+              <p class="card-icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </p>
+
+              <p class="card-details">Details</p>
+            </div>
+          </div>
+
+          <div class="card card-compact w-full bg-base-100 shadow-xl">
+            <figure><img src="images/orange.png" alt="" /></figure>
+            <div class="card-body">
+              <h2>12.90$ - 18.85$</h2>
+              <p class="card-text">Orange</p>
+
+              <p class="card-icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </p>
+
+              <p class="card-details">Details</p>
+            </div>
+          </div>
+
+          <div class="card card-compact w-full bg-base-100 shadow-xl">
+            <figure><img src="images/dragon.png" alt="" /></figure>
+            <div class="card-body">
+              <h2>12.90$ - 18.85$</h2>
+              <p class="card-text">Red Dragon</p>
+
+              <p class="card-icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </p>
+
+              <p class="card-details">Details</p>
+            </div>
+          </div>
+
+          <div class="card card-compact w-full bg-base-100 shadow-xl">
+            <figure><img src="images/banana.png" alt="" /></figure>
+            <div class="card-body">
+              <h2>12.90$ - 18.85$</h2>
+              <p class="card-text">Banana</p>
+
+              <p class="card-icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </p>
+
+              <p class="card-details">Details</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="button">
+          <button class="btn-shop">Shop All</button>
+        </div>
+      </div>
+    </section>
+    <!-- =========================================
+                  Gallery part end 
+    ============================================== -->
+
+    <!-- =========================================
+                  Team part start
+    ============================================== -->
+
+    <section id="team-part">
+      <div class="container">
+        <div class="team-img">
+          <div class="overlay">
+            <div class="team-head">
+              <h2>Meet the team section</h2>
+              <p>
+                Contrary to popular belief, is not simply random text. It has
+                roots in a piece of classical <br />
+                Latin literature from 45 BC, making it over 2000 years old.
+              </p>
+            </div>
+
+            <div
+              class="team-box grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4 gap-4"
+            >
+              <div class="card w-full">
+                <figure><img src="/images/team1.png" alt="" /></figure>
+                <div class="card-body">
+                  <h2>Awlad Hossain</h2>
+                  <p>Fruits Expert</p>
+                  <p></p>
+
+                  <div class="icon-box">
+                    <div class="icon">
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+
+                    <div class="icon">
+                      <i class="fa-brands fa-twitter"></i>
+                    </div>
+
+                    <div class="icon">
+                      <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card w-full">
+                <figure><img src="/images/team2.png" alt="" /></figure>
+                <div class="card-body">
+                  <h2>Safia Chowdhury</h2>
+                  <p>Fruits Expert</p>
+
+                  <div class="icon-box">
+                    <div class="icon">
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+
+                    <div class="icon">
+                      <i class="fa-brands fa-twitter"></i>
+                    </div>
+
+                    <div class="icon">
+                      <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card w-full">
+                <figure><img src="/images/team3.png" alt="" /></figure>
+                <div class="card-body">
+                  <h2>Sakib Hossain</h2>
+                  <p>Fruits Expert</p>
+
+                  <div class="icon-box">
+                    <div class="icon">
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+
+                    <div class="icon">
+                      <i class="fa-brands fa-twitter"></i>
+                    </div>
+
+                    <div class="icon">
+                      <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card w-full">
+                <figure><img src="/images/team4.png" alt="" /></figure>
+                <div class="card-body">
+                  <h2>Chaity</h2>
+                  <p>Fruits Expert</p>
+
+                  <div class="icon-box">
+                    <div class="icon">
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+
+                    <div class="icon">
+                      <i class="fa-brands fa-twitter"></i>
+                    </div>
+
+                    <div class="icon">
+                      <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+                  Team part end
+    ============================================== -->
+
+    <!-- =========================================
+                  Footer part start
+    ============================================== -->
+
+    <section id="footer-part" class="bg-black py-6">
+      <div class="container mx-auto px-4">
+        <footer class="footer footer-center p-4 text-primary-content">
+          <div class="">
+            <img src="images/Group 2.png" alt="" class="mb-4 sm:mb-0 sm:mr-4" />
+
+            <div class="footer-link text-center sm:text-left">
+              <ul class="flex flex-wrap justify-center sm:justify-start">
+                <li class="mx-2 my-1"><a href="#">Home</a></li>
+                <li class="mx-2 my-1"><a href="#">About Us</a></li>
+                <li class="mx-2 my-1"><a href="#">Shops</a></li>
+                <li class="mx-2 my-1"><a href="#">All Fruits</a></li>
+                <li class="mx-2 my-1"><a href="#">Support</a></li>
+                <li class="mx-2 my-1"><a href="#">My Account</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-icon mt-4">
+            <div class="flex justify-center">
+              <a href="#" class="mx-2"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="mx-2"><i class="fab fa-youtube"></i></a>
+              <a href="#" class="mx-2"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="mx-2"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="mx-2"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="mx-2"><i class="fab fa-apple"></i></a>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </section>
+
+    <!-- =========================================
+                  Footer part end
+    ============================================== -->
+  </body>
+</html>

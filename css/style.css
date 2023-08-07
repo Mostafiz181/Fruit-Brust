@@ -1,0 +1,434 @@
+
+/* ===================================
+        common css start
+====================================== */
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* ====================================
+        common css end 
+======================================= */
+
+/* ====================================
+        Header part css start
+======================================= */
+
+
+#header-part{
+    width: 100%;
+ 
+}
+
+.navbar-start ul {
+    display: flex;
+}
+
+.navbar-start ul li{
+    margin-left: 10px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar{
+    background-color: #F85559;
+    border-radius: 30px;
+}
+
+.navbar-center img{
+    width: 150px;
+  
+}
+
+#header-part .logo{
+    margin-left: 40px;
+}
+
+.navbar-end{
+    position: relative;
+}
+
+.navbar-end .search{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+.navbar-end input {
+    width: 50%;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 30px;
+    margin-left: 334px;
+}
+
+.navbar-end input::placeholder{
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #121212;
+} 
+
+/* ===================================
+            Header part css end
+====================================== */
+
+/* ====================================
+            Banner part css start
+======================================= */
+ #banner-part{
+    margin-top: 30px;
+    
+}
+
+#banner-part .banner-img{
+    width: 100%;
+    position: relative;
+    height: 500px;
+}
+
+#banner-part .banner-img .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.475);
+    border-radius: 10px;
+}
+
+#banner-part .banner-img .overlay .banner-text{
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+#banner-part .banner-img .overlay .banner-text h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: #fff;
+
+}
+
+#banner-part .banner-img .overlay .banner-text p{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+
+}
+
+
+#banner-part .banner-img .overlay .banner-text button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F85559;
+    border-radius: 10px;
+    margin: 10px 0;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+} 
+
+
+
+
+/* ====================================
+            Banner part css end
+======================================= */
+
+/* ====================================
+            Fruit part css start 
+======================================= */
+#fruit-part{
+    width: 100%;
+    position: relative;
+
+}
+
+#fruit-part .fruit-item {
+    width: 60%;
+    height: 200px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    position: absolute;
+    left: 20%;
+    bottom: -90px;
+}
+
+#fruit-part .fruit-item img{
+    /* width: 100%; */
+    margin-top: 30px;
+}
+
+#fruit-part .fruit-item p{
+    text-align: center;
+}
+
+/* ====================================
+            Fruit part css end 
+======================================= */
+
+/* ====================================
+            Counter part css start
+======================================= */
+#counter-part{
+    width: 100%;
+    margin-top: 150px;
+ 
+}
+
+
+
+#counter-part .left{
+    width: 100%;
+    padding: 10px 10px;
+    
+}
+
+#counter-part .left h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #121212;
+    font-family: 'Lato', sans-serif;
+}
+
+#counter-part .left p{
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    color: #12121276;
+    font-family: 'Lato', sans-serif;
+    padding-right: 120px;
+    
+}
+
+#counter-part .right {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    padding-left: 50px;
+}
+
+#counter-part .right h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #121212;
+    font-family: 'Lato', sans-serif;
+}
+
+#counter-part .right p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #1212128e;
+    font-family: 'Lato', sans-serif;
+}
+
+/* ====================================
+            Counter part css end
+======================================= */
+
+/* ====================================
+            Gallery part css start 
+======================================= */
+
+ #gallery-part{
+    width: 100%;
+    padding: 50px 0;
+
+} 
+
+/* #gallery-part .card-item{
+    display: flex;
+    gap: 10px;
+}  */
+
+ #gallery-part .container .card{
+    text-align: center;
+    border: 1px solid #12121292;
+} 
+
+#gallery-part .container .card img{
+    margin-top: 30px;
+} 
+
+ #gallery-part .container .card h2{
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    color: #121212;
+    margin: 10px 0;
+}
+
+ #gallery-part .container .card .card-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #1212129a;
+    font-family: 'Lato', sans-serif;
+}
+
+#gallery-part .container .card .card-icon i{
+   color: #F85559;
+}
+
+#gallery-part .container .card .card-details{
+    color: #F85559;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+#gallery-part .container .button{
+    text-align: center;
+}
+#gallery-part .container  .btn-shop{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F85559;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 10px;
+    margin-top: 10px;
+
+} 
+/* ====================================
+            Gallery part css end
+======================================= */
+
+/* =====================================
+            Team part start
+======================================== */
+
+#team-part{
+    width: 100%;
+    padding: 50px 0;
+    
+}
+#team-part .team-img{
+    width: 100%;
+    background-image: url(../images/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 114px 0;
+    margin-bottom: 20px;
+    
+    
+
+    
+  
+}
+
+
+
+
+
+#team-part .team-img .overlay .team-head{
+    text-align: center;
+    color: #fff;
+    /* margin-top: 100px; */
+    
+}
+
+#team-part .team-img .overlay .team-head h2{
+    font-weight: 900;
+    font-size: 48px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+
+#team-part .team-img .overlay .team-head p{
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    margin-top: 20px;
+    padding: 0 10px;
+}
+
+#team-part .team-img .overlay .team-box{
+    width: 80%;
+    padding: 10px 0;
+    margin: 30px auto;
+}
+
+#team-part .team-img .overlay .team-box img{
+    width: 100px;
+    height: 100px;
+}
+
+#team-part .team-img .overlay .team-box .card-body{
+    text-align: center;
+}
+
+#team-part .team-img .overlay .team-box .card-body h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffff;
+    font-family: 'Lato', sans-serif;
+}
+
+#team-part .team-img .overlay .team-box .card-body p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+#team-part .team-img .overlay .team-box .icon-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#team-part .team-img .overlay .team-box .icon{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #F85559;
+    border-radius: 50%;
+    color: #fff;
+}
+
+
+/* =====================================
+            Team part end
+======================================== */
+
+/* =====================================
+            Footer part start
+======================================== */
+
+
+
+#footer-part .footer-link ul li{
+    margin: 0 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+} 
+
+#footer-part .footer-icon i{
+    
+    font-size: 40px;
+    
+}  
+
+
+/* =====================================
+            Footer part end
+======================================== */
